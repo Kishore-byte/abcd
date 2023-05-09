@@ -38,5 +38,5 @@ jobs:
         user: __token__
         password: ${{ secrets.PYPI_API_TOKEN }}
         pip install pytest
-        export PYTHONPATH=main.py
+        export abcd=main.py
         pytest
